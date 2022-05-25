@@ -1,0 +1,20 @@
+{
+  "name": "liuxiaowen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "react": "^18.1.0",
+    "tsc-watch": "^5.0.3"
+  },
+  "dependencies": {
+    "ts-toolbelt": "^9.6.0"
+  }
+}
