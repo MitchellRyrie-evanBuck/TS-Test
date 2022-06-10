@@ -56,9 +56,6 @@ type cases = [
   Expect<Equal<LookUp<Animal, 'dog'>, Dog>>,
   Expect<Equal<LookUp<Animal, 'cat'>, Cat>>,
 ]
-
-
-
 /* _____________ 下一步 _____________ */
 /*
   > 分享你的解答：https://tsch.js.org/62/answer/zh-CN
